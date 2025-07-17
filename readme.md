@@ -86,3 +86,7 @@ contraseña de la bse de datos
 >#### Valida las URL
 >corre primero los proyectos y verifica las URL que esten funcionando bien.
 
+
+>[!tip]
+>#### Docker
+>Si no cuentas con mysql instalado puedes correr un contenedor de docker en apoyo del archivo docker-compose.yml así podras trabajar con una base de datos rápido.
