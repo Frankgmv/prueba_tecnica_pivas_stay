@@ -1,23 +1,88 @@
-# 🛍️ Proyecto de Gestión de Productos y Categorías
+# 🛍️ Fullstack App - Gestión de Productos y Categorías
 
-Este proyecto es una aplicación fullstack construida con **Node.js (Express + Sequelize)** para el backend y **React** para el frontend. Permite gestionar productos y categorías con operaciones CRUD completas.
-
----
-
-## 📦 Tecnologías Utilizadas
-
-- Node.js + Express
-- Sequelize + MySQL
-- React + React Router DOM
-- Axios
-- React Hook Form
+Aplicación web fullstack construida con **React** en el frontend y **Node.js + Express + Sequelize** en el backend. Permite gestionar productos y categorías con operaciones CRUD completas.
 
 ---
 
-## 🚀 Instrucciones para el Despliegue
+## 🔧 Tecnologías
 
-### 📁 1. Clonar el repositorio
+- ⚙️ Backend: Node.js, Express, Sequelize, MySQL
+- 🌐 Frontend: React, React Router DOM, Axios, React Hook Form
+- 🔁 API RESTful
+- 🎨 Validaciones de formularios y manejo de rutas
+
+---
+
+## 🚀 Instalación y ejecución local
+
+### 🔙 Backend (Node.js)
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/tu_usuario/tu_repositorio.git
+   cd tu_repositorio/backend
+
+
+## Correr localmente
+
+#### iniciar backend
+
+vamos a entrar al directorio
 
 ```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio
+  cd BACKEND
+```
+
+Instalar dependencias
+
+```bash
+  npm install
+```
+
+iniciar el servidor previo debes tener las variables de entorno en tu .env
+
+```bash
+  npm run start
+```
+
+#### iniciar el frontend
+
+Go to the project directory
+
+```bash
+  cd frontend
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
+
+
+## variables de entorno
+
+Para correr el proyecto debes tener el archivo .env en el directorio raiz de la carpeta backend
+
+base de datos del proyecto
+`MYSQL_DATABASE`
+
+usuario de la base de datos
+`MYSQL_USER`
+
+
+contraseña de la bse de datos
+`MYSQL_PASSWORD`
+
+
+>[!Note]
+>#### Valida las URL
+>corre primero los proyectos y verifica las URL que esten funcionando bien.
+
